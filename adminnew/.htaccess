@@ -1,0 +1,41 @@
+RewriteEngine On
+RewriteBase /sandbox/adminnew
+
+
+RewriteRule ^not_confirm\.php$                           index.php?menu=modul_order [L]
+RewriteRule ^confirm\.php$                               index.php?menu=modul_order_confirm [L]
+RewriteRule ^approve\.php$                               index.php?menu=modul_order_approve [L]
+
+RewriteRule ^not_confirm_pusat\.php$                     index.php?menu=modul_order_pusat [L]
+RewriteRule ^confirm_pusat\.php$                         index.php?menu=modul_order_confirm_pusat [L]
+RewriteRule ^approve_pusat\.php$                         index.php?menu=modul_order_approve_pusat [L]
+
+RewriteRule ^detail_transaksi\.php$                      index.php?menu=modul_order_detail&no_transaksi=$1 [L]
+
+RewriteRule ^detail_transaksi_pusat\.php$                index.php?menu=modul_order_detail_pusat&no_transaksi=$1 [L]
+RewriteRule ^pembayaran\.php$                            index.php?menu=modul_detailbayar&no_transaksi=$1 [L]
+RewriteRule ^pembayaran_pusat\.php$                      index.php?menu=modul_detailbayar_pusat&no_transaksi=$1 [L]
+
+RewriteRule ^prepare\.php$                               index.php?menu=siapkan [L]
+RewriteRule ^transit\.php$                               index.php?menu=perjalanan [L]
+RewriteRule ^receive\.php$                               index.php?menu=diterima [L]
+
+RewriteRule ^tracking\.php$                              index.php?menu=tracking [L]
+
+RewriteRule ^best-customer(.*)\.php$                     index.php?menu=crm_customer [L]
+RewriteRule ^customer-detail-(.*)-(.*)-(.*)\.php$        index.php?menu=crm_customer_detail&nama_url=$1&tgl1=$2&tgl2=$3 [L]
+RewriteRule ^best-area(.*)\.php$                         index.php?menu=crm_area [L]
+RewriteRule ^best-barang(.*)\.php$                       index.php?menu=crm_barang [L]
+
+RewriteRule ^transaction_report\.php$                    index.php?menu=laporantransaksi [L]
+RewriteRule ^transaction_report_detail\.php$             index.php?menu=laporantransaksidetail [L]
+
+RewriteRule ^disc\.php$                                  index.php?menu=disc [L]
+RewriteRule ^disc_tambah\.php$                           index.php?menu=disc_tambah [L]
+
+RewriteRule ^size_chart\.php$                            index.php?menu=sc [L]
+RewriteRule ^size_chart_proses\.php$                     index.php?menu=scp [L]
+RewriteRule ^size_chart_proses_excel\.php$               index.php?menu=scpe [L]
+
+RewriteRule ^member\.php$                                index.php?menu=member [L]
+RewriteRule ^import_master\.php$                         index.php?menu=import_master [L]

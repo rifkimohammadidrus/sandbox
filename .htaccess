@@ -1,0 +1,19 @@
+RewriteEngine on
+ErrorDocument 404 /404.php
+
+RewriteBase /sandbox/
+
+RewriteRule ^toko-([a-zA-Z_-]+)-([a-zA-Z0-9_-]+)                index.php?name=$1&otl=$2&kat=all [L]
+
+RewriteRule ^promo-([a-zA-Z_-]+)-([a-zA-Z0-9_-]+)               index.php?name=$1&otl=$2&kat=promo [L]
+
+RewriteRule ^terlaris-([a-zA-Z_-]+)-([a-zA-Z0-9_-]+)            index.php?name=$1&otl=$2&kat=terlaris [L]
+RewriteRule ^terbaru-([a-zA-Z_-]+)-([a-zA-Z0-9_-]+)             index.php?name=$1&otl=$2&kat=terbaru [L]
+RewriteRule ^produk-([a-zA-Z_-]+)-([a-zA-Z0-9_-]+)-category-([a-zA-Z0-9_-]+)             index.php?name=$1&otl=$2&kat=$3 [L]
+
+RewriteRule ^detail-(.*)-url-([a-zA-Z_-]+)-([a-zA-Z0-9_-]+)     detail_produk.php?name=$1&produk=$2&otl=$3 [L]
+RewriteRule ^produk                                produk.php
+ 
+
+
+

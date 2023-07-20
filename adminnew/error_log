@@ -1,0 +1,66 @@
+[16-Jan-2023 13:10:21 Asia/Bangkok] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/masterproduk.php on line 147
+[16-Jan-2023 13:10:58 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/crm_order.php:127
+Stack trace:
+#0 /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/content.php(37): include()
+#1 /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/index.php(63): include('/home/tailordig...')
+#2 {main}
+  thrown in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/crm_order.php on line 127
+[16-Jan-2023 13:11:13 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/crm_order_area.php:113
+Stack trace:
+#0 /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/content.php(39): include()
+#1 /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/index.php(63): include('/home/tailordig...')
+#2 {main}
+  thrown in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/crm_order_area.php on line 113
+[16-Jan-2023 13:11:16 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/crm_barang.php:130
+Stack trace:
+#0 /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/content.php(41): include()
+#1 /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/index.php(63): include('/home/tailordig...')
+#2 {main}
+  thrown in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/crm_barang.php on line 130
+[16-Jan-2023 13:11:19 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/monitoring_chat_admin.php:18
+Stack trace:
+#0 /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/content.php(59): include()
+#1 /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/index.php(63): include('/home/tailordig...')
+#2 {main}
+  thrown in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/monitoring_chat_admin.php on line 18
+[16-Jan-2023 13:16:25 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/monitoring_chat_admin.php:67
+Stack trace:
+#0 /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/content.php(59): include()
+#1 /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/index.php(63): include('/home/tailordig...')
+#2 {main}
+  thrown in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/monitoring_chat_admin.php on line 67
+[16-Jan-2023 13:25:39 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/crm_barang.php:130
+Stack trace:
+#0 /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/content.php(41): include()
+#1 /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/index.php(63): include('/home/tailordig...')
+#2 {main}
+  thrown in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/crm_barang.php on line 130
+[16-Jan-2023 13:31:19 Asia/Bangkok] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/laporantransaksi.php on line 146
+[16-Jan-2023 13:31:19 Asia/Bangkok] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/laporantransaksi.php on line 147
+[16-Jan-2023 13:31:19 Asia/Bangkok] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/laporantransaksi.php on line 148
+[16-Jan-2023 13:31:19 Asia/Bangkok] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/laporantransaksi.php on line 149
+[16-Jan-2023 13:34:31 Asia/Bangkok] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/laporantransaksi.php on line 146
+[16-Jan-2023 13:34:31 Asia/Bangkok] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/laporantransaksi.php on line 147
+[16-Jan-2023 13:34:31 Asia/Bangkok] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/laporantransaksi.php on line 148
+[16-Jan-2023 13:34:31 Asia/Bangkok] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/laporantransaksi.php on line 149
+[16-Jan-2023 06:46:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/connect.php on line 27
+[16-Jan-2023 13:46:31 Asia/Bangkok] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/connect.php on line 27
+[16-Jan-2023 13:46:31 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/laporantransaksi.php on line 108
+[16-Jan-2023 07:15:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/connect.php on line 27
+[16-Jan-2023 14:15:54 Asia/Bangkok] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/connect.php on line 27
+[16-Jan-2023 14:15:54 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/laporantransaksi.php on line 108
+[16-Jan-2023 07:15:56 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/connect.php on line 27
+[16-Jan-2023 14:15:56 Asia/Bangkok] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/connect.php on line 27
+[16-Jan-2023 14:15:56 Asia/Bangkok] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/user.php on line 72
+[16-Jan-2023 14:58:13 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/order.php:252
+Stack trace:
+#0 /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/content.php(22): include()
+#1 /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/index.php(63): include('/home/tailordig...')
+#2 {main}
+  thrown in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/order.php on line 252
+[16-Jan-2023 17:11:42 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/crm_order.php:127
+Stack trace:
+#0 /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/content.php(37): include()
+#1 /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/index.php(63): include('/home/tailordig...')
+#2 {main}
+  thrown in /home/tailordigital/public_html/domain/reseller/sandbox/adminnew/page/crm_order.php on line 127

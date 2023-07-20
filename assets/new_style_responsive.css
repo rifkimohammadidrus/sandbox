@@ -1,0 +1,1055 @@
+/* @media (min-width:768px) and (max-width: 2400px){ */
+	.ui-autocomplete-input {
+		margin-bottom: 5px;
+		padding-top: 2px;
+		border: 1px solid #DDD !important;
+		padding-top: 0px !important;
+		z-index: 1511;
+		position: relative;
+	}
+	.ui-menu .ui-menu-item a {
+		font-size: 12px;
+	}
+	.ui-autocomplete {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1510 !important;
+		float: left;
+		display: none;
+		min-width: 160px;
+		width: 160px;
+		padding: 4px 0;
+		margin: 2px 0 0 0;
+		list-style: none;
+		background-color: #ffffff;
+		border-color: #ccc;
+		border-color: rgba(0, 0, 0, 0.2);
+		border-style: solid;
+		border-width: 1px;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+		-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+		-webkit-background-clip: padding-box;
+		-moz-background-clip: padding;
+		background-clip: padding-box;
+		*border-right-width: 2px;
+		*border-bottom-width: 2px;
+	}
+	.ui-menu-item > a.ui-corner-all {
+		display: block;
+		padding: 3px 15px;
+		clear: both;
+		font-weight: normal;
+		line-height: 18px;
+		color: #555555;
+		white-space: nowrap;
+		text-decoration: none;
+	}
+	.ui-state-hover, .ui-state-active {
+		color: #ffffff;
+		text-decoration: none;
+		background-color: #0088cc;
+		border-radius: 0px;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		background-image: none;
+	}
+  .badge {
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		/* padding:5px; */
+		-webkit-border-radius:10px;
+		-moz-border-radius: 9px;
+		border-radius: 9px;
+	}
+	
+	#lblCartCount {
+			font-size: 12px;
+			font-family: 'Roboto', sans-serif;
+			background: #fc20a4;
+			color: #fff;
+			font-weight: 450;
+			vertical-align: top;
+			margin-left: -10px; 
+			margin-top:12px;
+	}
+	.content-wrap{
+		margin-top:-50px;
+		background-color:#f5f5f5
+	}
+	.login-font{
+		color: #fff;
+    font-weight: 200;
+    font-size: 12px;
+    text-transform: capitalize;
+  }
+  .icon-13xx{
+		font-size: 1.3333333333333333em;
+    color: #FFFFFF;
+		
+	}
+  .card{
+    min-width: 204px;
+    min-height: 312px;
+		max-width: 204px;
+		width:auto;
+		height: auto;
+  }
+  .card-body{
+    margin-left:-12px
+  }
+	.card-footer {
+		background-color: #fff;
+		border-top: #fff;
+		padding: 20px 10px 5px ;
+	}
+  h5.card-title{
+    margin-top:-12px;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  .harga{
+    cursor: default;
+    margin-bottom:-10px;
+    color:#b75ae2;  
+    font-family: 'Roboto', sans-serif;  
+    font-size: 14px;
+    font-weight:bold;
+    margin-top:-10px
+  }
+  .lokasi{
+    cursor: default;
+    font-family: 'Roboto', sans-serif;  
+    font-size: 10px;
+    /* margin-top:-10px;  */
+    color:#8d8d8d;
+    margin-left:5px 
+  }
+  .terjual{
+    cursor: default;
+    font-family: 'Roboto', sans-serif;  
+    font-size: 10px;
+    /* margin-top:4px;  */
+    color:#8d8d8d;
+    padding-right:5px
+  }
+  
+  #page-title {
+    position: relative;
+    padding-top: 30px !important;
+    padding-bottom: -30px !important;
+    margin-bottom: -70px !important;
+    background-color: #fff !important;
+    border-bottom: 0px solid #fff !important;
+  }
+  p.jenis-kategori{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #525252;
+  }
+  
+  .harga-promo{
+    font-size:9px;
+    margin-bottom:8px;
+    color:#8d8d8d;
+    cursor: default;
+    margin-top:10px;
+  }
+  .harga-promo span{
+    font-size:8px;
+    width: 19.3px;
+    height: 13.8px;
+    flex-grow: 0;
+    padding: 2.8px 2.1px 2.8px 2.1px;
+    border-radius: 4px;
+    background-color: #e6d7ff;
+    color: #7b34ef;
+  }
+	.tab-content img{
+		width:512.3px; height:512.3px
+	}
+	.tab-nav li{
+		margin-top:24.4px;
+		border:0px !important;
+		height:107.3px !important;
+	}
+	.tab-nav li:hover{
+		background-color:white;
+	}
+	.tab-nav li a img{
+		height: 107.3px; max-width: 107.3px !important; margin-left:-30px;
+	}
+	ul.tab-nav:not(.tab-nav-lg) {
+		margin: 0;
+		border-bottom: 0px !important;
+		list-style: none;
+	}
+	ul.tab-nav:not(.tab-nav-lg) li {
+			margin-right: 27px !important;
+	}
+	ul.tab-nav:not(.tab-nav-lg) li a {
+		background-color: #fff !important;
+	}
+	.margin0{
+		margin-bottom: 0px !important;
+	}
+	h1.rp{
+		margin-bottom: 0px !important; font-family: 'Roboto', sans-serif; color: #b75ae2;
+	}
+	p.pilih{
+		margin-bottom: 10px !important;
+		margin-top: 20px !important;
+		font-weight:bold;
+	}
+	/* .kuantitas{
+		width: 103px;
+		margin: 0 10px 0 0;
+		padding-top: 0px !important;
+		padding-bottom: 4px;
+		border-radius: 8px;border: solid 1px #8d8d8d;background-color: #fff;
+	} */
+	.kuantitas{
+
+		/* width: 103px; */
+		height: 32px;
+		flex-grow: 0;
+		margin: 0 10px 0 0;
+
+		padding: 4px 0px 4px;
+		border-radius: 8px;
+		border: solid 1px #8d8d8d;
+		background-color: #fff;
+
+	}
+
+
+	.qt-minus{
+		font-size:24px;
+	}
+	.qt-plus{
+		font-size:22px;
+	}
+	.qt{
+		margin-left:15px; margin-right:15px; font-size:19px;
+	}
+
+	.minus{
+		width: 30px !important;
+		height: 20px !important;
+		line-height: 0px !important;
+		background-color: transparent !important;
+	}
+	.qty{
+		width: 32px !important;
+		height: 20px !important;
+		line-height: 0px !important;
+		background-color: transparent !important;
+		border:0px !important
+	}
+	.plus{
+		
+		width: 30px !important;
+		height: 20px !important;
+		line-height: 0px !important;
+		background-color: transparent !important;
+		color:#b75ae2 !important;
+
+	}
+	
+	
+	.btn-outline-secondary:hover {
+		color: #b75ae2 ;
+		background-color: #f4effd;
+		border-color: #b75ae2;
+	}
+	.btn-outline-secondary:active {
+		background-color: #b75ae2 !important;
+		border-color: #b75ae2;
+
+
+	}
+	.btn-outline-secondary:focus {
+		box-shadow: #b75ae2 !important;
+		color: #fff !important;
+		background-color: #b75ae2 !important;
+		
+	}
+	.btn:focus {
+		outline: none;
+		box-shadow: none;
+	}
+	
+	.tebal{
+		font-size: 18px !important;
+		padding: 13px 48px;
+		font-weight: 500 !important;
+		border-color: #b75ae2 !important;
+		color:#b75ae2 !important;
+	}
+	.radio-kirim{
+		margin-left:70px
+	}
+/* } */
+.carousel-indicators{
+	position: static !important;
+	justify-content:left !important;
+	margin-left:0% !important
+
+}
+.carousel-indicators li {
+	text-indent: 0px !important;
+	cursor: pointer;
+	width: 107.3px !important;
+	/* padding-top:-50px !important; */
+
+	margin-top:15px !important;
+	margin-bottom:70px !important;
+	margin-right: 28px !important;
+	margin-left: 0px !important;
+
+}
+/* .carousel-indicators li img {
+box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+} */
+.carousel-item img{
+/* max-width:512.3px !important; */
+max-height:712.3px !important;
+margin-top:14px;
+}
+
+
+.button label{
+display: block;
+/* position: absolute; */
+left: 0;
+margin-top: -18px;
+border:1px solid #8d8d8d;
+
+}
+.button input {
+display: block;
+/* position: absolute; */
+left: 0;
+
+}
+.button {
+padding: 0 2px !important;
+cursor: pointer;
+background-color: #fff !important;
+border-radius: 8px !important;
+text-shadow: 0px 0px 0px #fff !important;
+margin:0px !important;
+
+}
+.button input[type="radio"] {
+opacity: 0.011;
+z-index: 100;
+background-color: #fff;
+border-radius: 8px;
+}
+.button input[type="radio"]:checked + label {
+	background-color: #f5f5f5;
+	color:#b75ae2 !important;
+	border-color:#b75ae2;
+border-radius: 8px;
+}
+
+.button label {
+cursor: pointer;
+z-index: 90;
+}
+
+
+/* Modal detail produk */
+h4.cekout-proses{
+	margin: 15px 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	line-height: 1;
+	text-align: center;
+	color: #b75ae2;
+}
+h4.cekout-nama{
+	font-family: 'Roboto', sans-serif;  
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: condensed;
+	font-style: normal;
+	line-height: 1.08;
+	letter-spacing: normal;
+	text-align: left;
+	color: #000;
+}
+.harga-promo-cekout{
+	margin-bottom: 10px !important;
+}
+.harga-promo-cekout span.harga-awal{ 
+	margin-bottom: 10px !important;
+	text-decoration: line-through;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1;
+	float:right;
+	color: #a7a7a7;
+}
+.harga-promo-cekout span.harga-disc{ 
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	font-stretch: condensed;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	float:right;
+	color: #000;
+}
+label {
+	text-transform:capitalize !important;
+	/* cursor:default !important; */
+	font-family: 'Inter Tight', sans-serif !important; 
+	font-size: 16px !important;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #525252 !important;
+	font-size: 16px;
+}
+#nama,#no_hp, #cod, #kirim_pesanan{
+	background-color: #f4effd;
+}
+::-webkit-input-placeholder { /* Edge */
+color:#b75ae2 !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+color:#b75ae2 !important;
+}
+
+::placeholder {
+color:#b75ae2 !important;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+	color: #b75ae2;
+	border-color: #b75ae2;
+	box-shadow:none;
+}
+.custom-control-input:checked~label.custom-control-label.custom::before{
+	background-color: #b75ae2;
+	box-shadow:none;
+}
+.custom-control-input:checked~label.custom-control-label.custom{
+	color: #b75ae2 !important;
+}
+.btn-custom{
+	padding: 13px 34px 13px 35px;
+	font-size: 18px;
+	font-weight: 500 !important;
+	border-color: #b75ae2 !important;
+	color:#b75ae2 !important;
+}
+.btn-outline-secondary{
+	font-family: 'Roboto', sans-serif !important;
+	border-radius:8px !important;
+}
+/* end modal produk */
+
+.aktif{
+  color:#b75ae2;
+}
+
+/* keranjang belanja */
+
+.img-keranjang{
+	width:130px;
+	height:130px;
+	margin-left:5px
+}
+.checkItem{
+	margin-left:5px;   
+	border-radius: 6px; 
+	border: solid 1px #8d8d8d;  
+	 width: 22px; height: 22px;
+}
+.form-check-input{
+	margin-left:-15px; 
+	margin-top:-2px; 
+	border-radius: 6px; 
+	border: solid 1px #8d8d8d;   
+	width: 22px; 
+	height: 22px;
+}
+.form-check-label{
+	padding-left:14px;  
+	text-transform:capitalize;
+	font-family: 'Inter Tight', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	text-align: left;
+	color: #8d8d8d;
+}
+#btn-hapus-semua{
+	padding:15px 0; 
+	background-color:#fff;
+	font-weight: 500 !important;
+	color:#7b34ef; 
+	border:none; 
+	float:right; 
+	margin-right: 12px; 
+}
+
+h4.keranjang-nama{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px !important;
+}
+	
+/* .harga-promo-keranjang .harga-disc {
+	margin-bottom:10px !important;
+	margin: 0px 0px 14px 8px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 1;
+	letter-spacing: normal;
+	color: #b75ae2;
+
+}  */
+.keranjang-ukuran{
+	font-family: 'Inter Tight', sans-serif; 
+	font-size: 14px; 
+	font-weight: 300; 
+	font-stretch: normal; 
+	font-style: normal; 
+	line-height: 1; 
+	letter-spacing: normal; 
+	text-align: left; 
+	color: #8d8d8d;
+}  
+	
+.harga-promo-keranjang .harga-awal{
+	font-size:14px;
+	margin-bottom:-10px;
+	color:#8d8d8d;
+	cursor: default;
+	margin-top:7px;
+	text-decoration: line-through;
+}
+.harga-promo-keranjang .disc{
+	font-size:14px;
+	width: 19.3px;
+	height: 13.8px;
+	flex-grow: 0;
+	padding: 2.8px 2.1px 2.8px 2.1px;
+	border-radius: 4px;
+	background-color: #e6d7ff;
+	color: #7b34ef;
+}
+.harga-promo-keranjang .harga-disc{
+
+	margin: 9px 125px 14px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	
+	line-height: 1;
+	letter-spacing: normal;
+	color: #b75ae2;
+}
+.harga-promo-keranjang .subtotal{
+	float:right; margin-right:11px; font-size:16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #b75ae2;
+}
+
+.remove{
+	padding:2px 0; background-color: white; color:#b75ae2; border:none; float:right; margin-right:14px 
+}
+#keranjang-quantity.quantity{
+	float: right;
+	margin-right: 0px !important;
+}
+.detail-p{
+	margin-top: 10px;
+}
+/* #keranjang-btn{
+	padding:2px 0; background-color: #f5f5f5; color:#b75ae2; border:none; float:right; margin-right:14px 
+} */
+/* end keranjang belanja */
+@media (max-width: 411px){
+	.detail-p{
+		margin-top:-10px !important;
+		border-top:1px solid #fff;
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+		background-color: #fff;
+	}
+	.carousel-item img{
+		margin-top:0px;
+	}
+	/* .carousel-indicators{
+		display: none;
+	} */
+	#lblCartCount {
+		margin-top:-4px;
+	}
+	.content-wrap{
+		background-color:#fff;
+		margin-top: -87px;
+	}
+	div#mobile.container {
+    width: 100% !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    }
+    /* .card{
+      width: 155px;
+      height: 235px;
+    } */
+		.card {
+			min-width: 155px;
+			min-height: 260px;
+			max-width: 180px;
+			width: auto;
+			height: auto;
+		}
+		.col{
+			padding-right: 8px !important;
+			padding-left: 8px !important;
+		}
+    .card-body{
+      margin-left:-12px
+    }
+		.card-footer {
+			padding: 20px 5px 5px;
+		}
+		h5.card-title{
+			font-size: 10px;
+		}
+    .harga{
+      font-size: 10px;
+    }
+    
+    .lokasi{
+      font-size: 8.5px;
+				/* margin-top:-20px;  */
+				margin-left: 10px;
+    }
+    .terjual{
+      font-size: 9px;
+      margin-top:1px;
+      padding-right:12px
+    }
+   
+    #page-title {
+      padding-top: 1px !important;
+      padding-bottom: -30px !important;
+      margin-bottom: 0px !important;
+    }
+    
+    p.jenis-kategori{
+      padding-top:12px;
+      font-size: 20px;
+      margin-bottom:-12px !important
+    }
+	#title-mob.container{
+		display: none;
+	}
+	.tab-content img{
+		/* width:612.3px; height:612.3px; */
+		margin-top: -20px;
+		min-width: 200px !important;
+		min-height: 200px ;
+		/* margin: 8px 9px 9px 11px; */
+		
+	}
+	.tab-nav li{
+		height:110px !important;
+	}
+	
+	.tab-nav li a img{
+		max-height: 95px; max-width: 95px !important; 
+		
+	}
+	
+	ul.tab-nav:not(.tab-nav-lg) li {
+			margin-right: 10px !important;
+	}
+	ul.tab-nav:not(.tab-nav-lg) li a {
+		padding: 0 0px !important;
+	}
+	#mob-produk{
+		margin: 0 13px;
+	}
+	div .share{
+		display: none !important;
+	}
+	.hilang{
+		display: none !important;
+	}
+	h1.rp{
+		font-size: 16px !important;
+	}
+	p.pilih{
+		margin-bottom: 5px !important;
+		margin-top: 5px !important;
+	}
+	 
+	.btn-outline-secondary:active { 
+		box-shadow: #b75ae2 !important 
+	}
+
+	.tebal{
+		font-size: 15px !important;
+		padding: 7px 10px;
+	}
+	.btn:focus {
+		outline: none;
+		box-shadow: none;
+	}
+	/* .size{
+		border:0px !important
+	} */
+	.radio-kirim{
+		margin-left:0px
+	}
+	.carousel-indicators{
+		margin-left:0% !important;
+		margin-right:0% !important
+	}
+	.carousel-indicators li {
+		text-indent: 0px !important;
+		cursor: pointer;
+		width: 110px !important;
+		/* padding-top:-50px !important; */
+	
+		margin-top:-5px !important;
+		margin-bottom:70px !important;
+		margin-right: 4px !important;
+		margin-left: 4px !important;
+
+	}
+	/* modal  */
+	.btn-custom{
+		padding: 8.6px 15.3px;
+		font-size: 14px;
+	}
+	label {
+		font-size: 14px !important;
+	}
+
+	/* keranjang belanja */
+	.img-keranjang{
+		width:80px;
+		height:80px;
+		margin-left:3px
+	}
+	.checkItem{
+		margin-left:8px; 
+		width: 20px; 
+		height: 16px;
+	}
+	.form-check-input{
+		margin-left:-12px;
+		margin-top:5px;   
+		width: 20px; height: 16px;
+	}
+	.form-check-label{
+		padding-left:16px;  
+		font-size: 12px;
+	}
+	#btn-hapus-semua{
+		padding:15px 0; 
+		margin-right: 20px; 
+		background-color:#fff;
+	}
+	
+   
+    h4.keranjang-nama{
+      font-size: 12px !important;
+      color: #000;
+    }
+ 
+    
+    .keranjang-ukuran{ 
+      font-size: 10px; 
+    } 
+    .harga-promo-keranjang{
+      margin-bottom:10px !important;
+    }
+    .harga-promo-keranjang .harga-awal{
+      font-size:10px;
+    }
+    .harga-promo-keranjang .disc{
+      font-size:10px;
+    }
+    .harga-promo-keranjang .harga-disc{ 
+      font-size: 12px;
+      margin: 9px 5px 0px 0px;
+    }
+		.harga-promo-keranjang .subtotal{
+			float:right; margin-right:10px; font-size:12px;font-family: 'Roboto', sans-serif;
+			font-weight: bold;
+			color: #b75ae2;
+		}
+    #keranjang-quantity.quantity{
+      float: left !important;
+    }
+		#keranjang-btn{
+			background-color: #fff;
+		}
+		/* end keranjang belanja */
+		
+}
+	@media (min-width:412px) and (max-width: 767px){
+		.detail-p{
+			margin-top:-10px !important;
+			border-top:1px solid #fff;
+			border-top-right-radius: 20px;
+			border-top-left-radius: 20px;
+			background-color: #fff;
+		}
+		.carousel-item img{
+			margin-top:0px;
+		}
+		/* .carousel-indicators{
+			display: none;
+		} */
+		.col{
+			padding-right: 8px !important;
+			padding-left: 8px !important;
+		}
+		#lblCartCount {
+			margin-top:-4px;
+		}
+		.content-wrap{
+			margin-top:-85px;
+			background-color:#fff
+		}
+		div#mobile.container {
+			width: 100% !important;
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+			}
+			div#mobile-slider.container {
+		 
+			padding-left: 8px !important;
+			padding-right: 8px !important;
+			}
+			#slider a img{
+				border-radius:8px;
+				/* height: 146px !important; */
+			}
+			
+			.card{
+				min-width: 155px;
+				min-height: 255px;
+				
+				width: auto;
+				height: auto;
+			}
+			.card-body{
+				margin-left:-14px
+			}
+			h5.card-title{
+				font-size: 12px;
+			}
+			.harga{ 
+				font-size: 11px;
+				margin-top:-12px;
+				margin-bottom:-12px
+			}
+		 
+			.harga-promo{
+				font-size:8px;
+			}
+			.harga-promo span{
+				font-size:7px;
+			}
+			.lokasi{
+				font-size: 8.5px;
+				/* margin-top:-20px;  */
+				margin-left: 12px;
+			}
+			
+			.terjual{
+				font-size: 8.5px;
+				margin-top: 2.5px;
+				padding-right:12px
+			}
+			
+			#page-title {
+				padding-top: 1px !important;
+				padding-bottom: -30px !important;
+				margin-bottom: 0px !important;
+			}
+		 
+			p.jenis-kategori{
+				padding-top:12px;
+				font-size: 20px;
+				margin-bottom:-12px !important
+			}
+		 
+			.hapus{
+				padding:2px 0; background-color: white; color:#b75ae2; border:none; float:right; margin-right:14px 
+			}
+		#title-mob.container{
+			display: none;
+		}
+		.tab-content img{
+			/* width:612.3px; height:612.3px; */
+			margin-top: -20px;
+			min-width: 412px !important;
+			min-height: 412px ;
+			/* margin: 8px 9px 9px 11px; */
+		}
+		.tab-nav li{
+			height:110px !important;
+		}
+		.tab-nav li a img{
+			max-height: 110px; max-width: 110px !important; 
+			
+		}
+		ul.tab-nav:not(.tab-nav-lg) li {
+				margin-right: 10px !important;
+		}
+		ul.tab-nav:not(.tab-nav-lg) li a {
+			padding: 0 0px !important;
+		}
+		#mob-produk{
+			margin: 0 13px;
+		}
+		
+		div .share{
+			display: none !important;
+		}
+		.hilang{
+			display: none !important;
+		}
+		h1.rp{
+			font-size: 24px !important;
+		}
+		p.pilih{
+			margin-bottom: 5px !important;
+			margin-top: 5px !important;
+		}
+		.btn-outline-secondary:active {
+			box-shadow: #b75ae2 !important 
+		}
+		.tebal{
+			font-size: 15px !important;
+			padding: 8px 20px;
+		}
+		.btn:focus {
+			outline: none;
+			box-shadow: none;
+		}
+		/* .size{
+			border:0px !important
+		} */
+		.radio-kirim{
+			margin-left:0px
+		}
+		.carousel-indicators{
+			margin-left:0% !important;
+			margin-right:0% !important
+		}
+		.carousel-indicators li {
+			text-indent: 0px !important;
+			cursor: pointer;
+			width: 110px !important;
+			/* padding-top:-50px !important; */
+		
+			margin-top:-5px !important;
+			margin-bottom:70px !important;
+			margin-right: 6px !important;
+			margin-left: 0px !important;
+
+		}
+		
+		/* modal */
+		
+		.btn-custom{
+			padding: 9.6px 20.3px 8.4px 25.9px;
+			font-size: 14px;
+		}
+		label {
+			font-size: 14px !important;
+		}
+
+		/* keranjang belanja */
+		.img-keranjang{
+			width:110px;
+			height:110px;
+			margin-left:3px
+		}
+		.checkItem{
+			margin-left:8px; 
+			width: 20px; 
+			height: 16px;
+		}
+		.form-check-input{
+			margin-left:-12px;
+			margin-top:5px;   
+			width: 20px; 
+			height: 16px;
+		}
+		.form-check-label{
+			margin-left:0px;  
+			font-size: 12px;
+		}
+		#btn-hapus-semua{
+			padding:15px 0; 
+			margin-right: 20px;
+			background-color:#fff; 
+		}
+		
+    h4.keranjang-nama{
+      font-size: 12px !important;
+    }
+    
+    .keranjang-ukuran{
+      font-size: 10px; 
+    }  
+   
+    .harga-promo-keranjang{
+      margin-bottom:10px !important;
+    }
+    .harga-promo-keranjang .harga-awal{
+      font-size:10px;
+    }
+    .harga-promo-keranjang .disc{
+      font-size:10px;
+    }
+    .harga-promo-keranjang .harga-disc{ 
+      font-size: 12px;
+      margin: 9px 5px 0px 0px;
+    }
+		.harga-promo-keranjang .subtotal{
+			float:right; margin-right:10px; font-size:12px;font-family: 'Roboto', sans-serif;
+			font-weight: bold;
+			color: #b75ae2;
+		}
+    #keranjang-quantity.quantity{
+      float: left !important;
+    }
+		#keranjang-btn{
+			background-color: #fff;
+		}
+		/* end keranjang belanja */
+		
+	}
+	
+	
